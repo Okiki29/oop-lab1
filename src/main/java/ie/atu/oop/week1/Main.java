@@ -5,5 +5,9 @@ public class Main {
 
         Book firstbook = new Book();
         firstbook.title = "Dune";
+        firstbook.author = "Frank Herbert";
+        firstbook.pageCount = 412;
+
+        firstbook.displayDetails();
     }
 }
