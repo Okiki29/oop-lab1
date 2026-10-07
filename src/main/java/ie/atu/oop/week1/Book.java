@@ -49,5 +49,6 @@ public class Book
         }
         status = BookStatus.ON_LOAN;
     }
+
 }
 
