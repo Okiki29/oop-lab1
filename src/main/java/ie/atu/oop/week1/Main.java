@@ -6,6 +6,9 @@ public class Main {
         try {
             Book myBook = new Book("Dune", "Frank", 10);
             System.out.println("Creating a new book");
+            System.out.println(myBook.getStatus());
+            myBook.borrowBook();
+            System.out.println(myBook.getStatus());
         } catch(IllegalArgumentException ex)
         {
             System.out.println(ex.getMessage());
