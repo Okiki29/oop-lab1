@@ -15,4 +15,11 @@ public class LibraryService {
         }
         book.borrowBook();
     }
+
+    public void returnBook(Book myBook) {
+        if(myBook == null)
+        {
+            throw new IllegalArgumentException("Book cannot be null");
+        }
+    }
 }
